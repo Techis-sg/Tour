@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Travel Website Design</title>
+
+    <!-- font awesome cdn file link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <a href="#home" class="logo">
+            <h3>Tra<span>vel</span></h3>
+        </a>
+        <img id="header-img" src="files/buslogo4.png">
+
+        <nav class="navbar" id="nav-bar">
+            <ul>
+                <li><a class="nav-link" data-scroll="home" href="#home" class="active">home</a></li>
+                <li><a class="nav-link" data-scroll="about" href="#about">about</a></li>
+                <li><a class="nav-link" data-scroll="gallery" href="#gallery">gallery</a></li>
+                <li><a class="nav-link" data-scroll="Explore" href="#explore">Explore</a></li>
+                <li><a class="nav-link" data-scroll="contact" href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="video">
+            <video src="files/video.mp4" class="video-bg" autoplay loop muted></video>
+        </div>
+
+        <div class="content">
+            <h1>Every Trip Is a Special Trip,<br>adventures gives memories <br></h1>
+            <h1 class="typing">Discover Life with us.</h1>
+            <p>We make your travelling easy and fun so that you can make your unforgettable memories.</p>
+        </div>
+
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+
+    <section id="about" class="about">
+
+        <h1 class="heading"><span>a</span>bout <span>u</span>s</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/Trip-pana.svg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>why choose us?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quam aut tenetur quaerat omnis
+                    perferendis nesciunt quidem odit quod! Ex excepturi temporibus iste assumenda, odio magnam
+                    laudantium minus asperiores distinctio!</p><br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, itaque.</p>
+                <a href="#"><button class="btn btn1">read more</button></a>
+                <a href="#"><button class="btn">get started</button></a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- about section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section id="gallery" class="gallery">
+
+        <h1 class="heading"><span>g</span>allery</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/gpic1.jpg" alt="" onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+            <div class="box">
+                <img src="images/gpic2.jpg" alt="" onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+            <div class="box">
+                <img src="images/gpic3.jpg" alt="" onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+            <div class="box">
+                <img src="images/gpic4.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gpic5.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gpic6.jpg" alt="">
+            </div>
+
+            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <div class="modal-content">
+                    <img id="img01" style="max-width:100%">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section id="review" class="review">
+
+        <h1 class="heading"><span>r</span>eview</h1>
+
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>someone's name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ex labore odio fuga doloremque
+                        sequi in asperiores ea, nisi ullam?</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>someone's name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ex labore odio fuga doloremque
+                        sequi in asperiores ea, nisi ullam?</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>someone's name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ex labore odio fuga doloremque
+                        sequi in asperiores ea, nisi ullam?</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section id="contact" class="contact">
+
+        <h1 class="heading"><span>c</span>ontact <span>u</span>s</h1>
+
+
+        <div class="row">
+
+            <div class="contact-info">
+
+                <div class="box">
+                    <h3> <i class="fa fa-home"></i> address </h3>
+                    <p>mumbai, <br>
+                        maharashtra, <br>
+                        400104.</p>
+                </div>
+
+                <div class="box">
+                    <h3> <i class="fa fa-envelope"></i> e-mail </h3>
+                    <p>xyz@gmail.com</p>
+                </div>
+
+                <div class="box">
+                    <h3> <i class="fa fa-phone"></i> phone </h3>
+                    <p>+123 4567 890</p>
+                </div>
+
+            </div>
+
+            <div class="contact-form-container">
+
+                <form id="form" action="" class="needs-validation" novalidate="">
+
+                    <h3>get in touch</h3>
+
+                    <div class="inputBox">
+                        <div class="form-group">
+                            <input type="Name" placeholder="Full Name" class="form-control" id="name" required="">
+                            <i class="fa fa-user icon"></i>
+                            <div class="invalid-feedback">
+                                Please add your name
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="Email" placeholder="E-mail" class="form-control" id="email" required="">
+                            <i class="fa fa-envelope icon"></i>
+                            <div class="invalid-feedback">
+                                Please add a valid email
+                            </div>
+                        </div>
+                    </div>
+
+                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <i class="fa fa-pencil-alt icon"></i>
+
+                    <button id="submit" type="submit"
+                        class="btn btn-primary btn-givi hvr-grow-shadow hvr-back-pulse">Submit</button>
+                </form>
+
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <footer></footer>
+
+
+
+    <!-- jquery cdn link & sweetalert  -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+
+    <!-- custom js file link  -->
+    <script src="main.js"></script>
+
+
+
+</body>
+
+</html>
