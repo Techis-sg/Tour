@@ -22,7 +22,7 @@ function onClick(element) {
             icon: "success",
             button: "OK",
             html: true,
-            timer: 1000,
+            timer: 5000,
             showCancelButton: true,
             confirmButtonText: 'Submit',
             showLoaderOnConfirm: true
