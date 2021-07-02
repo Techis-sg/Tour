@@ -29,7 +29,6 @@ function onClick(element) {
           });
           // stop form submit only for demo
           event.preventDefault();
-          location.replace(location.pathname);
         }
         form.classList.add('was-validated');
       }, false);
